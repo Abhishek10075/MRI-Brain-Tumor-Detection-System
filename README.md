@@ -1,7 +1,9 @@
 # 🧠 Brain Tumor Detection System
 
-<img width="1044" height="571" alt="image" src="https://github.com/user-attachments/assets/079b19c2-7bf0-4c92-bd8b-65ab534c1a40" />
-<img width="1054" height="558" alt="image" src="https://github.com/user-attachments/assets/07bdf2d4-b771-4986-b0e7-4b50d97dc5f4" />
+<img width="951" height="371" alt="image" src="https://github.com/user-attachments/assets/d039694b-31c2-484b-8f0b-e61f163aca44" />
+<img width="712" height="539" alt="image" src="https://github.com/user-attachments/assets/805758f7-5a87-4a03-86c0-628d57400fa3" />
+<img width="987" height="284" alt="image" src="https://github.com/user-attachments/assets/8a6423bd-c19c-43f8-a6e5-e4a870fd699f" />
+
 
 
 
