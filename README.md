@@ -1,14 +1,11 @@
 # 🧠 Brain Tumor Detection System
+A deep learning–based application that classifies MRI brain images into different tumor categories using **Transfer Learning with VGG16**. The system helps in automated and accurate tumor detection through medical image analysis.
+
+
 
 <img width="951" height="371" alt="image" src="https://github.com/user-attachments/assets/d039694b-31c2-484b-8f0b-e61f163aca44" />
 <img width="712" height="539" alt="image" src="https://github.com/user-attachments/assets/805758f7-5a87-4a03-86c0-628d57400fa3" />
 <img width="987" height="284" alt="image" src="https://github.com/user-attachments/assets/8a6423bd-c19c-43f8-a6e5-e4a870fd699f" />
-
-
-
-
-
-A deep learning–based application that classifies MRI brain images into different tumor categories using **Transfer Learning with VGG16**. The system helps in automated and accurate tumor detection through medical image analysis.
 
 ---
 
