@@ -1,84 +1,121 @@
-MRI Brain Tumor Detection System 🧠
-📌 Project Overview
+# 🧠 Brain Tumor Detection System
 
-• This project detects brain tumors from MRI images
-• It uses Artificial Intelligence and Deep Learning
-• The system helps in early detection of brain tumors
-• It classifies MRI images as Tumor or No Tumor
+<img width="1044" height="571" alt="image" src="https://github.com/user-attachments/assets/079b19c2-7bf0-4c92-bd8b-65ab534c1a40" />
+<img width="1054" height="558" alt="image" src="https://github.com/user-attachments/assets/07bdf2d4-b771-4986-b0e7-4b50d97dc5f4" />
 
-🎯 Objectives
 
-• To analyze MRI brain images
-• To detect the presence of a brain tumor
-• To reduce manual diagnosis effort
-• To support doctors with AI-based assistance
 
-🧠 Technology Used
 
-• Python – main programming language
-• Deep Learning (CNN) – for image classification
-• TensorFlow / Keras – model building and training
-• OpenCV – image processing
-• NumPy – numerical operations
-• Matplotlib – visualization
+A deep learning–based application that classifies MRI brain images into different tumor categories using **Transfer Learning with VGG16**. The system helps in automated and accurate tumor detection through medical image analysis.
 
-📂 Dataset
+---
 
-• MRI brain scan images
-• Two classes:
-• Tumor
-• No Tumor
-• Images are resized and normalized before training
+## 🚀 Features
 
-⚙️ How the System Works
+* Classifies MRI brain scans into **four categories**: Glioma, Meningioma, Pituitary Tumor, and No Tumor
+* Uses **VGG16 pre-trained CNN model** for high accuracy
+* Image preprocessing and data augmentation for better generalization
+* Displays **prediction confidence** along with tumor type
+* Interactive **Streamlit web interface** for real-time prediction
 
-• MRI image is given as input
-• Image is preprocessed (resize, normalize)
-• CNN model extracts features
-• Model predicts:
-• Tumor
-• No Tumor
-• Output is displayed to the user
+---
 
-🧪 Model Details
+## 🛠️ Technologies Used
 
-• Convolutional Neural Network (CNN)
-• Multiple convolution and pooling layers
-• Fully connected layers for classification
-• Binary classification output
+* **Python**
+* **TensorFlow / Keras**
+* **CNN (VGG16 – Transfer Learning)**
+* **NumPy & Pandas**
+* **Matplotlib & Seaborn**
+* **Streamlit**
 
-▶️ How to Run the Project
+---
 
-• Clone the repository
-• Install required libraries
-• Run the main Python file-streamlit run app.py
-• Upload or test MRI images
-• View prediction result
+## 📂 Project Structure
 
-📦 Installation
+```
+├── Training/                 # Training MRI images
+├── Testing/                  # Testing MRI images
+├── model.h5                  # Trained deep learning model
+├── app.py                    # Streamlit application
+├── detect.py                 # Tumor detection logic
+├── brain_tumor.ipynb         # Jupyter Notebook (model training)
+├── requirements.txt          # Dependencies
+└── README.md                 # Project documentation
+```
 
-Install required packages using:
+---
 
-pip install tensorflow opencv-python numpy matplotlib
+## 🧠 Model Architecture
 
-📊 Results
+* Pre-trained **VGG16** model with ImageNet weights
+* Top layers removed and customized for medical classification
+* Last few layers unfrozen for fine-tuning
+* Dense and Dropout layers added to reduce overfitting
+* **Softmax activation** for multi-class classification
 
-• The model provides accurate tumor detection
-• Helps in fast and reliable diagnosis
-• Performance depends on dataset quality
+---
 
-🚀 Future Enhancements
+## 📊 Model Performance
 
-• Multi-class tumor classification
-• Improve accuracy with larger dataset
-• Add web or mobile interface
-• Real-time MRI scan analysis
+* Achieved **~95% accuracy** on test dataset
+* Evaluated using:
 
-👨‍💻 Author
+  * Classification Report
+  * Confusion Matrix
+  * ROC Curve & AUC Score
 
-Abhishek Nishad
-AI / ML Enthusiast
+---
 
-📜 License
+## 🖥️ How to Run the Project
 
-• This project is for educational purposes only
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Abhishek10075/MRI-Brain-Tumor-Detection-System.git
+cd Brain-Tumor-Detection
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run Streamlit App
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📸 Sample Output
+
+* Upload MRI image
+* Model predicts:
+
+  * Tumor Type
+  * Confidence Score
+
+---
+
+## 📌 Use Case
+
+* Medical image analysis
+* Assisting radiologists in tumor detection
+* AI-based healthcare applications
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for **educational and research purposes only** and should not be used as a replacement for professional medical diagnosis.
+
+---
+
+## 👤 Author
+
+**Abhishek Nishad**
+
+If you like this project, ⭐ star the repository on Git
