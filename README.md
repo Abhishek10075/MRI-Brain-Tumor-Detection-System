@@ -116,5 +116,3 @@ This project is for **educational and research purposes only** and should not be
 ## 👤 Author
 
 **Abhishek Nishad**
-
-If you like this project, ⭐ star the repository on Git
